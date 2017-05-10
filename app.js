@@ -49,6 +49,7 @@ var config = {
 
 // development error handler
 // will print stacktrace
+//Ignore this line
 if (app.get('env') === 'development') {
   app.use(function(err, req, res, next) {
     res.status(err.status || 500);
